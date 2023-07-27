@@ -8,7 +8,10 @@ from utils import nms, xywh2xyxy
 
 
 class YOLOv7:
-    """Class for running YOLOv5-7 inference on ONNX Runtime."""
+    """
+    Inference code is taken from
+    https://github.com/ibaiGorordo/ONNX-YOLOv7-Object-Detection
+    """
 
     def __init__(
         self,

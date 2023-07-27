@@ -8,6 +8,11 @@ from utils import nms, xywh2xyxy
 
 
 class YOLOv8:
+    """
+    Inference code is taken from
+    https://github.com/ibaiGorordo/ONNX-YOLOv8-Object-Detection
+    """
+
     def __init__(
         self, path: str, conf_thres: float = 0.25, iou_thres: float = 0.45
     ) -> None:
